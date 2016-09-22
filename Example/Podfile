@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BetaThirdComponent_Example' do
+  pod 'BetaThirdComponent', :path => '../'
+
+  target 'BetaThirdComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
